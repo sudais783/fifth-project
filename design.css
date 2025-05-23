@@ -1,0 +1,396 @@
+.page{
+    border-right: 20px solid gray;
+    height: auto;
+    border-left: 20px solid gray;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.call{
+    margin-top: 12px;
+    font-size: 25px;
+    color: brown;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+.image{
+    width: 915px;
+}
+.new{
+    height: 6px;
+    background-color: gray;
+}
+.number{
+    margin: 12px 0px 12px 0px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 60px;
+}
+.question{
+    margin-top: 12px;
+    font-family: sans-serif;
+    font-size: 23px;
+}
+.contact{
+    margin-right: 40px;
+}
+.line{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif
+}
+.point{
+    list-style-type: none;
+    display: flex;
+    margin-top: 0px;
+    justify-content:right;
+}
+.bar{
+    background-color: brown;
+    height: 60px;
+}
+.right{
+    padding: 19px;
+    margin-right: 15px;
+}
+.line:hover{
+    background-color: gray;
+    padding: 20px;
+}
+.space{
+    display: flex;
+  justify-content: space-between;
+}
+.pic1{
+   margin-left: 50px;
+}
+.pic2{
+  margin-right: 50px;
+  position: relative;
+  display: inline-block;
+}
+.space{
+    margin-top: 30px;
+}
+.question1{
+    position: absolute;
+    top: 0px;
+    height: 50px;
+    width: 220px;
+    background-color: brown;
+    margin: 0px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: 8px;
+}
+.word{
+    position:absolute;
+    top: 20px;
+    left: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quiz{
+    color: rgb(34, 34, 109);
+    font-weight: 800;
+    font-size: 35px;
+}
+.top{
+    margin-top: -20px;
+}
+.info{
+    position: absolute;
+    padding-left: 12px;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    font-family: sans-serif;
+}
+.big{
+    font-weight: 700;
+}
+.confedental{
+    position: absolute;
+    transform: rotate(15deg);
+    top: 190px;
+    left: 330px;
+}
+.gap{margin: 12px;}
+.data{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.input{
+    height: 22px;
+}
+.gap label input{
+    height: 22px;
+    width: 200px;
+}
+.description{
+    padding-left: 12px;
+    height: 70px;
+    width: 468px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.message textarea::placeholder{
+    color:rgb(56, 54, 54);
+}
+.message{
+    position: absolute;
+    top: 280px;
+    left: 40px;
+}
+.message2{
+    position: absolute;
+    top: 380px;
+    left: 30px;
+    font-size: 18px;
+}
+.boton1{
+    position: absolute;
+    background-color: brown;
+    color: white;
+    width: 290px;
+    height: 50px;
+    font-size: 22px;
+   
+}
+.boton{
+    position: absolute;
+      left: 238px;
+    top:380px ;
+}
+.color{
+    color: brown;
+    margin-top: 8px;
+    font-family: sans-serif;
+}
+.box1{
+    width: 480px;
+}
+.box2{
+    width: 480px;
+}
+.box3{
+    width: 480px;
+}
+.main2{
+    display: flex;
+    margin-top: 50px;
+}
+.heading{
+    margin-bottom: 0px;
+}
+.color2{
+    color: brown;
+}
+.paragraph1{
+    font-size: 15px;
+    color: gray;
+    font-family: sans-serif;
+}
+.box{
+    display: flex;
+    width: 360px;
+}
+.pic-1{
+    width: 100px;
+    padding-left: 70px;
+}
+.bottom{
+    width: 240px;
+    margin: 30px 0px 0px 180px;
+}
+.boton2{
+    margin-left: 270px;
+    background-color: brown;
+    color: white;
+    height: 29px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.left{padding-left: 70px;}
+.flex1{
+    display: flex;
+    height: 170px;
+    padding-left: 10px;
+    width: 460px;
+}
+.image3{
+   padding-top: 30px;
+   padding-left: 20px;
+}
+.paragraph2{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: gray;
+    padding-left: 30px;
+}
+.space1{
+    margin-bottom: 0px;
+    width: 200px;
+    margin-left: 34px;
+}
+.boton3{
+    background-color: brown;
+    color: white;
+    height: 29px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 90px;
+}
+.flex2{
+    display: flex;
+}
+.paragraph3{
+font-size: 15px;
+    font-family: sans-serif;
+    color: gray;
+}
+.image4{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.nick{
+    padding-left: 30px;
+}
+.flex3{
+    display: flex;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.pic6{
+    padding-left: 30px;
+}
+.space5{
+    padding-left: 40px;
+}
+.bottom1{
+    margin-bottom: 0px;
+}
+.paragraph3{
+    color: gray;
+    font-size: 17px;
+}
+.space2{
+    margin-bottom: 0px;
+    width: 200px;
+    margin-right: 140px;
+}
+.boton4{
+     background-color: brown;
+    color: white;
+    height: 29px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 140px;
+}
+.image6{
+    padding-top: 20px;
+    width: 1400px;
+}
+.box4{ 
+    position: relative;
+    height: 90px;
+    width: 300px;
+    background-color: gray;
+}
+.flex4{
+   display: flex;
+   padding-bottom: 12px;
+}
+.boton5{
+    font-size: 18px;
+    background-color: gray;
+    color: white;
+    padding-left: 180px;
+    border: 1px;
+}
+.bottom4{
+margin: 12px 0px 15px 0px;
+font-size: 25px;
+font-family: sans-serif;
+color: white;
+padding-left: 8px;
+}
+.bottom6{
+    margin: 40px 0px 80px 0px;
+    font-size: 20px;
+}
+.boton6{
+      background-color: brown;
+    color: white;
+    height: 29px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.paragraph7{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: gray;
+    line-height: 30px;
+}
+.main3{
+    display: flex;
+}
+.main4{
+    padding-left: 50px;
+}
+.bottom7{
+    color: gray;
+    padding-left: 110px;
+}
+.right2{
+    margin: 0px;
+    padding-left: 20px;
+}
+.center{
+    padding-left: 30px;
+}
+.boton7{
+ background-color: brown;
+    color: white;
+    height: 29px;
+    width: 130px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.bottom8{
+ margin-bottom: 0px;
+ width: 180px;
+ margin-right: 40px;
+}
+.image7{
+    padding-top: 50px;
+}
+.image8{
+    padding: 20px 0px 0px 15px;
+}
+.logo{
+    padding-left: 8px;
+}
+.small{
+    padding-top: 20px;
+}
+.last{
+    padding-left: 20px;
+}
+.line{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(85, 16, 16);
+    margin-top: 100px;
+}
