@@ -1,7 +1,7 @@
 .pic-2 {
     background-image: url('images/form_bg.jpg');
     background-color: #cccccc;
-    height: 100%;
+  
     width: 48%;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,13 +13,14 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: auto;
+    height: 100%;
     flex-wrap: wrap;
 }
 
 .pic-1 {
     padding-left: 1%;
     width: 50%;
+    height: 100%;
 }
 
 .sate {
@@ -42,14 +43,14 @@
 
 .state {
     width: 50%;
-    font-size: 1rem;
+    font-size: 1.3vw;
     font-weight: 600;
     font-family: sans-serif;
 }
-
+.confi{width: 12vw;}
 .spac {
-    width: 70%;
-    height: 20%;
+    width: 12vw;
+    height: 1.4vw;
 }
 
 .box5 {
@@ -63,27 +64,28 @@
 
 .detail {
     background-color: brown;
-    font-size: 100%;
+    font-size: 1.3vw;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    height: 10vh;
+    height: 68px;
     font-weight: 700;
-    width: 40%;
+    width: 14vw;
 }
 
 .quiz {
     color: rgb(34, 34, 109);
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 2.5vw;
 }
 
 .top {
+    font-size: 2.2vw;
     padding-left: 10%;
 }
 
 .info {
     padding-left: 5%;
-    font-size: 1.2rem;
+    font-size: 1.6vw;
     font-family: sans-serif;
 }
 
@@ -113,9 +115,9 @@
 .boton1 {
     background-color: brown;
     color: white;
-    font-size: 1rem;
-    width: 50%;
-    height: 6vh;
+    font-size: 16px;
+    width: 220px;
+    height: 30px;
 }
 
 .flex6 {
@@ -163,7 +165,7 @@
 
 .new {
     margin-right: 28%;
-    width: 70%;
+    width: 72%;
     margin-bottom: 1%;
     height: 1%;
     background-color: gray;
@@ -189,8 +191,8 @@
 
 .bar {
     background-color: brown;
-    height: 10vh;
-    width: 100%;
+    height: 80px;
+    width: 100w;
 }
 
 .point {
@@ -266,9 +268,9 @@
     margin-left: 22%;
     background-color: brown;
     color: white;
-    height: 8vh;
+    height: 33px;
     width: 35%;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -309,11 +311,12 @@
 .boton3 {
     background-color: brown;
     color: white;
-    height: 8vh;
-    font-size: 1rem;
+    height: 35px;
+    font-size: 16px;
     font-weight: 600;
-    width: 70%;
+    width: 113px;
     margin-left: 22%;
+    margin-bottom: 20%;
 }
 
 .image3 {
@@ -358,12 +361,13 @@
 }
 
 .boton4 {
+    width: 30%;
     background-color: brown;
     color: white;
-    height: 8vh;
-    font-size: 1rem;
+    height: 33px;
+    font-size: 16px;
     font-weight: 600;
-    margin-left: 40%;
+    margin-left: 37%;
 }
 
 .main2 {
@@ -399,8 +403,8 @@ section {
 }
 
 .box4 {
-    height: 15vh;
-    width: 75%;
+    height: 70px;
+    width: 243px;
     background-color: gray;
 }
 
@@ -409,24 +413,24 @@ section {
 }
 
 .pic7 {
-    height: 15vh;
+    height: 70px;
 }
 
 .bottom4 {
-    margin: 2% 0% 10% 0;
-    font-size: 1.4rem;
+    margin: 5px 0 18px 0;
+    font-size: 22px;
     font-family: sans-serif;
     color: white;
-    padding-left: 2%;
+    padding-left: 4px;
 }
 
 .boton5 {
     background-color: gray;
-    font-size: 1.1rem;
+    font-size: 16px;
     color: white;
-    padding-left: 55%;
-    border: 1rem;
-    height: 5vh;
+    padding-left: 141px;
+    border: 1px;
+    height: 21px;
 }
 
 .bottom6 {
@@ -477,9 +481,9 @@ section {
 .boton7 {
     background-color: brown;
     color: white;
-    height: 5vh;
+    height: 25px;
     width: 45%;
-    font-size: 1rem;
+    font-size: 16px;
     margin-left: 12%;
 }
 
@@ -508,7 +512,7 @@ section {
     display: none;
 }
 
-@media (max-width:992px) {
+@media (max-width:1024px) {
     .pic-2 {
         width: 100%;
         height:100%;
@@ -520,19 +524,26 @@ section {
     }
 
     .confedental {
-        width: 39%;
+        width: 26vw;
        
     }
-
+  .info{font-size: 2.9vw;}
     .detail {
-        height: 8vh;
+        width: 200px;
+        height: 40px;
     }
-
-    .state {
+    .state{font-size: 2.5vw;}
+    .spac{width: 20vw;
+    height: 2.4vw;}
+  .top{font-size: 4vw;
+    margin-bottom: 12px;
+    padding-left: 80px;}
+    .quiz{font-size: 7vw;}
+  /* .state {
         width: 50%;
-        font-size: 72%;
-    }
-
+        font-size: 23px;
+    }*/
+ .main2{flex-wrap: wrap;}
     .message2 {
         width: 80%;
         font-size: 14px;
@@ -542,21 +553,8 @@ section {
         width: 70%;
     }
 
-    .boton1 {
-        font-size: 10px;
-    }
-
-    .info {
-        width: 90%;
-        font-size: 12px;
-    }
-
-    .main2 {
-        flex-wrap: wrap;
-    }
-
     .data {
-        width: 100%;
+       max-width:100%;
     }
 
     .confi {
@@ -564,7 +562,7 @@ section {
          rotate: 10deg;
         padding: 6% 14% 0% 12%;
     }
-    .bar{height: 4vh;}
+    .bar{height: 50px;}
 
     /*  .gap{
         width: 190px;
@@ -608,11 +606,11 @@ section {
 
     .message .description {
         width: 88%;
-        height: 60px;
+        height: 70px;
     }
 
     .content-1 .write {
-        font-size: 12px;
+        font-size: 2.5vw;
     }
 
     .flex6 .content-1 {
@@ -623,10 +621,11 @@ section {
     }
 
     .boton1 {
-        height: 4vh;
+        width: 37vw;
+        height: 32px;
         background-color: brown;
         color: white;
-        font-size: 10px;
+        font-size: 2.8vw;
     }
 
     .flex6 {
@@ -651,12 +650,21 @@ section {
     .pic-2 {
         margin-top: 12px;
     }
-
+  .box2{
+    margin: 20px auto;
+    max-width: 400px;
+    border-right: none;
+  }
+  .center{width: 350px;
+margin: 0 auto;}
+.right2{width: 350px;
+margin: 0 auto;}
+  .flex1{border-bottom: none;}
     .call,
     .new,
     .number,
     .question {
-        font-size: 0.6rem;
+        font-size: 1.7vw;
         font-weight: 900;
     }
 
@@ -670,16 +678,16 @@ section {
 
     .boton2 {
         font-size: 16px;
-        height: 4vh
+        height: 35px;
     }
 
     .boton3 {
-        height: 4vh;
-        width: 85%;
+        height: 35px;
+        width: 113px;
     }
 
     .boton4 {
-        height: 4vh;
+        height: 25px;
     }
 
     .image6 {
@@ -687,33 +695,29 @@ section {
     }
 
     .image7 {
-        padding-left: 24%;
+        width: 350px;
+        margin: 0 auto;
     }
-
-    .main3 {
-        flex-direction: column;
+   .image8 {
+        width: 350px;
+        margin: 0 auto;
     }
-
-    .left2 {
-        width: 100%;
-    }
-
-    .center {
-        width: 100%;
-    }
-
-    .right2 {
-        width: 100%;
-    }
-
+    .last{width: 350px;
+    margin: 0 auto;}
+    .main3{flex-direction: column;}
     .paragraph7 {
-        font-size: 0.9rem;
-        padding: 0 4% 0 4%;
+        width: 350px;
+        margin: 0 auto;
+        font-size: 14px;
+      /*  padding: 0 4% 0 4%;*/
     }
-
+  .mid{width: 350px;
+    margin: 0 auto;}
+   .box3{width: 400px;
+     margin: 0 auto;}
     .box4,
     .pic7 {
-        height: 10vh;
+        height: 62px;
     }
 
     .line {
@@ -728,6 +732,10 @@ section {
         flex-direction: column;
         text-align: right;
     }
-    .image8{padding: 2% 0 0 28%;}
-
-}
+  .bottom7{padding-left: 24%;}
+  .box1{border-right: none;
+    width: 400px;
+    margin: 0 auto;}
+    .left2{width: 400px;
+    margin: 0 auto;}
+    }
